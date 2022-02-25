@@ -45,5 +45,6 @@ class MainActivity : AppCompatActivity() {
         else{
             Toast.makeText(this, "Not On Whatsapp", Toast.LENGTH_LONG).show()
         }
+        finish()
     }
 }
